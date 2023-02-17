@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 /**
 * main - prints the alphabet in lowercase,
@@ -9,6 +9,7 @@ nclude <stdio.h>
 int main(void)
 {
 	char ch;
+
 	for (ch = 'a'; ch <= 'z'; ch++)
 		{
 		putchar(ch);
