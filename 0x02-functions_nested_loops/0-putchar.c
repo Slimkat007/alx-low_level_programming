@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
- * main - prints putchar
- * is written to mbah
- * Return: 0
- */
+* main - prints putchar
+* is written to mbah
+* Return: 0
+*/
 
 int main(void)
 {
@@ -15,8 +16,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putchar('\n);
+	_putchar('\n');
 
-	Return(0);
-
+	return (0);
 }
